@@ -1,0 +1,16 @@
+{
+  "name": "nodejsguide",
+  "version": "1.0.0",
+  "description": "complete guide",
+  "main": "(urltesting1.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon urltesting1.js",
+    "start_server": "nodemon urltesting1.js"
+  },
+  "author": "nikku meena",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
