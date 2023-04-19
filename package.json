@@ -5,12 +5,15 @@
   "main": "(urltesting1.js)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon urltesting1.js",
-    "start_server": "nodemon urltesting1.js"
+    "start": "nodemon app.js",
+    "start_server": "nodemon app.js"
   },
   "author": "nikku meena",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
